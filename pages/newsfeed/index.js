@@ -1338,7 +1338,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -1366,7 +1366,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/happy.png" alt="reaction-happy" /> <span className="bold">Happy</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -1390,7 +1390,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -1448,7 +1448,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -1468,7 +1468,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/13.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/13.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -1488,7 +1488,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/22.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/22.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -1508,7 +1508,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -1528,7 +1528,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -1590,13 +1590,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
 
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style="position: absolute; z-index: 9999; bottom: 54px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -22px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
 
                 {/* REACTION OPTION */}
@@ -1604,7 +1604,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -23.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
 
                 {/* REACTION OPTION */}
@@ -1612,7 +1612,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -28px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
 
                 {/* REACTION OPTION */}
@@ -1620,7 +1620,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
 
                 {/* REACTION OPTION */}
@@ -1628,7 +1628,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
 
                 {/* REACTION OPTION */}
@@ -1636,7 +1636,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -24px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
 
                 {/* REACTION OPTION */}
@@ -1644,7 +1644,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -26.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
 
                 {/* REACTION OPTION */}
@@ -1652,7 +1652,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -21.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -1908,7 +1908,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/funny.png" alt="reaction-funny" /> <span className="bold">Funny</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -1936,7 +1936,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -1960,7 +1960,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -2010,7 +2010,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/09.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/09.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -2030,7 +2030,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -2050,7 +2050,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/12.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/12.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -2070,7 +2070,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/16.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/16.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -2090,7 +2090,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/06.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/06.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -2152,13 +2152,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
       
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style="position: absolute; z-index: 9999; bottom: 54px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -22px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2166,7 +2166,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -23.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2174,7 +2174,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -28px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;" /><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}} /><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2182,7 +2182,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2190,7 +2190,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2198,7 +2198,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -24px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2206,7 +2206,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -26.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2214,7 +2214,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -21.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -2382,8 +2382,8 @@ function Newsfeed() {
                     {/* PHOTO PREVIEW */}
                     <div className="photo-preview">
                       {/* PHOTO PREVIEW IMAGE */}
-                      <figure className="photo-preview-image liquid" style="background: url(&quot;/img/cover/10.jpg&quot;) center center / cover no-repeat;">
-                        <img src="/img/cover/10.jpg" alt="photo-preview-10" style="display: none;" />
+                      <figure className="photo-preview-image liquid" style={{'background': 'url(&quot;/img/cover/10.jpg&quot;) center center / cover no-repeat'}}>
+                        <img src="/img/cover/10.jpg" alt="photo-preview-10" style={{'display': 'none'}} />
                       </figure>
                       {/* /PHOTO PREVIEW IMAGE */}
                   
@@ -2432,8 +2432,8 @@ function Newsfeed() {
                     {/* PHOTO PREVIEW */}
                     <div className="photo-preview">
                       {/* PHOTO PREVIEW IMAGE */}
-                      <figure className="photo-preview-image liquid" style="background: url(&quot;/img/cover/12.jpg&quot;) center center / cover no-repeat;">
-                        <img src="/img/cover/12.jpg" alt="photo-preview-12" style="display: none;" />
+                      <figure className="photo-preview-image liquid" style={{'background': 'url(&quot;/img/cover/12.jpg&quot;) center center / cover no-repeat'}}>
+                        <img src="/img/cover/12.jpg" alt="photo-preview-12" style={{'display': 'none'}} />
                       </figure>
                       {/* /PHOTO PREVIEW IMAGE */}
                   
@@ -2486,8 +2486,8 @@ function Newsfeed() {
                     {/* PHOTO PREVIEW */}
                     <div className="photo-preview">
                       {/* PHOTO PREVIEW IMAGE */}
-                      <figure className="photo-preview-image liquid" style="background: url(&quot;/img/cover/16.jpg&quot;) center center / cover no-repeat;">
-                        <img src="/img/cover/16.jpg" alt="photo-preview-16" style="display: none;" />
+                      <figure className="photo-preview-image liquid" style={{'background': 'url(&quot;/img/cover/16.jpg&quot;) center center / cover no-repeat'}}>
+                        <img src="/img/cover/16.jpg" alt="photo-preview-16" style={{'display': 'none'}} />
                       </figure>
                       {/* /PHOTO PREVIEW IMAGE */}
                   
@@ -2536,8 +2536,8 @@ function Newsfeed() {
                     {/* PHOTO PREVIEW */}
                     <div className="photo-preview">
                       {/* PHOTO PREVIEW IMAGE */}
-                      <figure className="photo-preview-image liquid" style="background: url(&quot;/img/cover/08.jpg&quot;) center center / cover no-repeat;">
-                        <img src="/img/cover/08.jpg" alt="photo-preview-08" style="display: none;" />
+                      <figure className="photo-preview-image liquid" style={{'background': 'url(&quot;/img/cover/08.jpg&quot;) center center / cover no-repeat'}}>
+                        <img src="/img/cover/08.jpg" alt="photo-preview-08" style={{'display': 'none'}} />
                       </figure>
                       {/* /PHOTO PREVIEW IMAGE */}
                   
@@ -2594,8 +2594,8 @@ function Newsfeed() {
                     {/* PHOTO PREVIEW */}
                     <div className="photo-preview">
                       {/* PHOTO PREVIEW IMAGE */}
-                      <figure className="photo-preview-image liquid" style="background: url(&quot;/img/cover/14.jpg&quot;) center center / cover no-repeat;">
-                        <img src="/img/cover/14.jpg" alt="photo-preview-14" style="display: none;" />
+                      <figure className="photo-preview-image liquid" style={{'background': 'url(&quot;/img/cover/14.jpg&quot;) center center / cover no-repeat'}}>
+                        <img src="/img/cover/14.jpg" alt="photo-preview-14" style={{'display': 'none'}} />
                       </figure>
                       {/* /PHOTO PREVIEW IMAGE */}
                   
@@ -2674,7 +2674,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/wow.png" alt="reaction-wow" /> <span className="bold">Wow</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -2694,7 +2694,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -2736,7 +2736,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/03.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/03.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -2756,7 +2756,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/15.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/15.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -2776,7 +2776,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/14.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/14.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -2796,7 +2796,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -2858,13 +2858,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
       
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style="position: absolute; z-index: 9999; bottom: 54px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -22px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2872,7 +2872,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -23.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2880,7 +2880,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -28px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2888,7 +2888,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2896,7 +2896,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2904,7 +2904,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -24px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2912,7 +2912,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -26.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2920,7 +2920,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -21.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -3094,7 +3094,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/dislike.png" alt="reaction-dislike" /> <span className="bold">Dislike</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -3122,7 +3122,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -3146,7 +3146,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -3200,7 +3200,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -3220,7 +3220,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/11.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/11.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -3240,7 +3240,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/06.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/06.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -3260,7 +3260,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -3280,7 +3280,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -3342,13 +3342,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
       
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style="position: absolute; z-index: 9999; bottom: 54px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -22px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3356,7 +3356,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -23.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3364,7 +3364,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -28px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3372,7 +3372,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3380,7 +3380,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3388,7 +3388,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -24px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3396,7 +3396,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -26.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3404,7 +3404,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -21.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -3686,7 +3686,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -3714,7 +3714,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/happy.png" alt="reaction-happy" /> <span className="bold">Happy</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -3734,7 +3734,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -3796,7 +3796,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -3816,7 +3816,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/13.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/13.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -3836,7 +3836,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/22.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/22.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -3856,7 +3856,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -3876,7 +3876,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -3938,13 +3938,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
       
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style="position: absolute; z-index: 9999; bottom: 54px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -22px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3952,7 +3952,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -23.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3960,7 +3960,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -28px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3968,7 +3968,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3976,7 +3976,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3984,7 +3984,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -24px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3992,7 +3992,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -26.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4000,7 +4000,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -21.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -4160,7 +4160,7 @@ function Newsfeed() {
                     {/* USER AVATAR CONTENT */}
                     <div className="user-avatar-content">
                       {/* HEXAGON */}
-                      <div className="hexagon-image-18-20" data-src="/img/avatar/24.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                      <div className="hexagon-image-18-20" data-src="/img/avatar/24.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                       {/* /HEXAGON */}
                     </div>
                     {/* /USER AVATAR CONTENT */}
@@ -4205,7 +4205,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -4233,7 +4233,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/happy.png" alt="reaction-happy" /> <span className="bold">Happy</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -4253,7 +4253,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -4315,7 +4315,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -4335,7 +4335,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/13.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/13.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -4355,7 +4355,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/22.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/22.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -4375,7 +4375,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -4395,7 +4395,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -4457,13 +4457,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
       
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style="position: absolute; z-index: 9999; bottom: 54px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -22px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4471,7 +4471,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -23.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4479,7 +4479,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -28px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4487,7 +4487,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4495,7 +4495,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4503,7 +4503,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -24px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4511,7 +4511,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -26.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4519,7 +4519,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -21.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -4703,7 +4703,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -4731,7 +4731,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/happy.png" alt="reaction-happy" /> <span className="bold">Happy</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -4755,7 +4755,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -4813,7 +4813,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -4833,7 +4833,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/13.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/13.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -4853,7 +4853,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/22.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/22.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -4873,7 +4873,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -4893,7 +4893,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -4955,13 +4955,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
       
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style="position: absolute; z-index: 9999; bottom: 54px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -22px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4969,7 +4969,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -23.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4977,7 +4977,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -28px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4985,7 +4985,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4993,7 +4993,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -5001,7 +5001,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -24px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -5009,7 +5009,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -26.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -5017,7 +5017,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -21.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -5201,7 +5201,7 @@ function Newsfeed() {
                       {/* /BAR PROGRESS WRAP */}
                   
                       {/* PROGRESS STAT BAR */}
-                      <div id="poll-result-1" className="progress-stat-bar" style="width: 472px; height: 4px; position: relative;"><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                      <div id="poll-result-1" className="progress-stat-bar" style={{'width': '472px', 'height': '4px', 'position': 'relative'}}><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                       {/* /PROGRESS STAT BAR */}
                     </div>
                     {/* /PROGRESS STAT */}
@@ -5223,7 +5223,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/10.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5243,7 +5243,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/05.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/05.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5263,7 +5263,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/09.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/09.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5283,7 +5283,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5303,7 +5303,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/12.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/12.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5323,7 +5323,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/16.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/16.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5343,7 +5343,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/06.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/06.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5363,7 +5363,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/13.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/13.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5383,7 +5383,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/11.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/11.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5403,7 +5403,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/30.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/30.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5423,7 +5423,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/03.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/03.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5443,7 +5443,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/04.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/04.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5473,7 +5473,7 @@ function Newsfeed() {
                       {/* /BAR PROGRESS WRAP */}
                   
                       {/* PROGRESS STAT BAR */}
-                      <div id="poll-result-2" className="progress-stat-bar" style="width: 472px; height: 4px; position: relative;"><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                      <div id="poll-result-2" className="progress-stat-bar" style={{'width': '472px', 'height': '4px', 'position': 'relative'}}><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                       {/* /PROGRESS STAT BAR */}
                     </div>
                     {/* /PROGRESS STAT */}
@@ -5495,7 +5495,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/11.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/11.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5515,7 +5515,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/22.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/22.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5535,7 +5535,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/21.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/21.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5555,7 +5555,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/19.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/19.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5575,7 +5575,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/14.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/14.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5595,7 +5595,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/15.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/15.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5615,7 +5615,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/07.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5645,7 +5645,7 @@ function Newsfeed() {
                       {/* /BAR PROGRESS WRAP */}
                   
                       {/* PROGRESS STAT BAR */}
-                      <div id="poll-result-3" className="progress-stat-bar" style="width: 472px; height: 4px; position: relative;"><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                      <div id="poll-result-3" className="progress-stat-bar" style={{'width': '472px', 'height': '4px', 'position': 'relative'}}><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="472" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                       {/* /PROGRESS STAT BAR */}
                     </div>
                     {/* /PROGRESS STAT */}
@@ -5667,7 +5667,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/18.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/18.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5687,7 +5687,7 @@ function Newsfeed() {
                           {/* USER AVATAR CONTENT */}
                           <div className="user-avatar-content">
                             {/* HEXAGON */}
-                            <div className="hexagon-image-18-20" data-src="/img/avatar/02.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                            <div className="hexagon-image-18-20" data-src="/img/avatar/02.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                             {/* /HEXAGON */}
                           </div>
                           {/* /USER AVATAR CONTENT */}
@@ -5723,7 +5723,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/funny.png" alt="reaction-funny" /> <span className="bold">Funny</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -5751,7 +5751,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -5775,7 +5775,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style="position: absolute; z-index: 9999; bottom: 38px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -5825,7 +5825,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/09.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/09.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -5845,7 +5845,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -5865,7 +5865,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/12.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/12.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -5885,7 +5885,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/16.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/16.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -5905,7 +5905,7 @@ function Newsfeed() {
                         {/* USER AVATAR CONTENT */}
                         <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div className="hexagon-image-18-20" data-src="/img/avatar/06.jpg" style="width: 18px; height: 20px; position: relative;"><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/06.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -5967,13 +5967,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
       
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style="position: absolute; z-index: 9999; bottom: 54px; left: -16px; opacity: 0; visibility: hidden; transform: translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;">
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -22px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -5981,7 +5981,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -23.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -5989,7 +5989,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -28px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -5997,7 +5997,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -6005,7 +6005,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -27px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -6013,7 +6013,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -24px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -6021,7 +6021,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -26.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -6029,7 +6029,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style="white-space: nowrap; position: absolute; z-index: 99999; top: -28px; left: 50%; margin-left: -21.5px; opacity: 0; visibility: hidden; transform: translate(0px, 10px); transition: 0.3s ease-in-out;"><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -6160,7 +6160,7 @@ function Newsfeed() {
             {/* /STATS BOX */}
       
             {/* STATS BOX */}
-            <div className="stats-box stat-posts-created tns-item tns-fadeOut" id="stats-box-slider-items-item1" style="left: 0%;" aria-hidden="true" tabindex="-1">
+            <div className="stats-box stat-posts-created tns-item tns-fadeOut" id="stats-box-slider-items-item1" style={{'left': '0%'}} aria-hidden="true" tabindex="-1">
               {/* STATS BOX VALUE WRAP */}
               <div className="stats-box-value-wrap">
                 {/* STATS BOX VALUE */}
@@ -6198,7 +6198,7 @@ function Newsfeed() {
             {/* /STATS BOX */}
       
             {/* STATS BOX */}
-            <div className="stats-box stat-reactions-received tns-item tns-slide-active tns-fadeIn" id="stats-box-slider-items-item2" style="left: 0%;">
+            <div className="stats-box stat-reactions-received tns-item tns-slide-active tns-fadeIn" id="stats-box-slider-items-item2" style={{'left': '0%'}}>
               {/* STATS BOX VALUE WRAP */}
               <div className="stats-box-value-wrap">
                 {/* STATS BOX VALUE */}
@@ -6348,7 +6348,7 @@ function Newsfeed() {
           {/* WIDGET BOX CONTENT */}
           <div className="widget-box-content">
             {/* WIDGET BOX CONTENT SLIDER */}
-            <div className="tns-outer" id="reaction-stat-slider-items-ow"><div className="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span className="current">3</span>  of 2</div><div id="reaction-stat-slider-items-mw" className="tns-ovh"><div className="tns-inner" id="reaction-stat-slider-items-iw"><div id="reaction-stat-slider-items" className="widget-box-content-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" style="transition-duration: 0s; transform: translate3d(-33.3333%, 0px, 0px);"><div className="widget-box-content-slider-item tns-item" aria-hidden="true" tabindex="-1">
+            <div className="tns-outer" id="reaction-stat-slider-items-ow"><div className="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span className="current">3</span>  of 2</div><div id="reaction-stat-slider-items-mw" className="tns-ovh"><div className="tns-inner" id="reaction-stat-slider-items-iw"><div id="reaction-stat-slider-items" className="widget-box-content-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" style={{'transition-duration': '0s', 'transform': 'translate3d(-33.3333%, 0px, 0px)'}}><div className="widget-box-content-slider-item tns-item" aria-hidden="true" tabindex="-1">
                 {/* REACTION STATS */}
                 <div className="reaction-stats">
                   {/* REACTION STAT */}
