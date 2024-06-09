@@ -10,10 +10,12 @@ import Bar1 from '../../components/Bar';
 import Profileheader from '../../components/Profile/header';
 import SectionNavigation from '../../components/Section/Navigation';
 import Banner from '../../components/Banner';
+import BannerImageLink from '../../components/Banner/ImageLink';
 import Head from 'next/head';
 import Widgetbox1 from '../../components/Widgetbox/1';
 import Widgetbox2 from '../../components/Widgetbox/2';
 import Widgetbox3 from '../../components/Widgetbox/3';
+import bg1 from '../../public/img/cover/10.jpg';
 
 
 function Newsfeed() {
@@ -52,22 +54,13 @@ function Newsfeed() {
     <Header1 />
     <Bar1 />
     <div className="content-grid">
-    {/* PROFILE HEADER */}
-
    <Banner bannerdescription={description} bannertitle={title1} bannerimage={bannerImageUrl}/>
-
    <div className="grid grid-3-6-3 mobile-prefer-content">
-      {/* GRID COLUMN */}
       <div className="grid-column">
        <Widgetbox1 />
        <Widgetbox2 />
        <Widgetbox3 />
-        <a className="banner-promo" href="https://themeforest.net/user/odin_design" target="_blank">
-          <img src="/img/banner/banner-promo.jpg" alt="banner-promo" />
-        </a>
-        {/* /BANNER PROMO */}
-
-        {/* WIDGET BOX */}
+    <BannerImageLink bannername="banner-promo" bannerhref="https://themeforest.net/user/odin_design" bannertarget="_blank" bannersrc="/img/banner/banner-promo.jpg" banneralt="banner-promo" />
         <div className="widget-box">
           {/* WIDGET BOX SETTINGS */}
           <div className="widget-box-settings">
@@ -1640,8 +1633,8 @@ function Newsfeed() {
                     {/* PHOTO PREVIEW */}
                     <div className="photo-preview">
                       {/* PHOTO PREVIEW IMAGE */}
-                      <figure className="photo-preview-image liquid" style={{'background': 'url(&quot;/img/cover/10.jpg&quot;) center center / cover no-repeat'}}>
-                        <img src="/img/cover/10.jpg" alt="photo-preview-10" style={{'display': 'none'}} />
+                      <figure className="photo-preview-image liquid" style={{'background': `url(${bg1.src}) center center / cover no-repeat`}}>
+                        <img src={bg1.src} alt="photo-preview-10" style={{'display': 'none'}} />
                       </figure>
                       {/* /PHOTO PREVIEW IMAGE */}
                   
