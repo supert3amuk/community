@@ -3902,19 +3902,6 @@ function Newsfeed() {
 
 
         </div>
-
-        {/* /WIDGET BOX */}
-
-      
-        {/* /WIDGET BOX */}
-      
-     
-        {/* /WIDGET BOX */}
-        {/* /LOADER BARS */}
-      
-      {/* /GRID COLUMN */}
-
-      {/* GRID COLUMN */}
       <div className="grid-column">
         {/* STATS BOX SLIDER */}
         <div className="stats-box-slider">
