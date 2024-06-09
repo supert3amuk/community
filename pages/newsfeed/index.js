@@ -15,8 +15,12 @@ import Head from 'next/head';
 import Widgetbox1 from '../../components/Widgetbox/1';
 import Widgetbox2 from '../../components/Widgetbox/2';
 import Widgetbox3 from '../../components/Widgetbox/3';
+import Widgetbox4 from '../../components/Widgetbox/4';
 import bg1 from '../../public/img/cover/10.jpg';
-
+import bg2 from '../../public/img/cover/12.jpg';
+import bg3 from '../../public/img/cover/16.jpg';
+import bg4 from '../../public/img/cover/14.jpg';
+import bg5 from '../../public/img/cover/08.jpg';
 
 function Newsfeed() {
     const bannerImageUrl = '/img/banner/newsfeed-icon.png';
@@ -60,195 +64,9 @@ function Newsfeed() {
        <Widgetbox1 />
        <Widgetbox2 />
        <Widgetbox3 />
-    <BannerImageLink bannername="banner-promo" bannerhref="https://themeforest.net/user/odin_design" bannertarget="_blank" bannersrc="/img/banner/banner-promo.jpg" banneralt="banner-promo" />
-        <div className="widget-box">
-          {/* WIDGET BOX SETTINGS */}
-          <div className="widget-box-settings">
-            {/* POST SETTINGS WRAP */}
-            <div className="post-settings-wrap" style={{position: 'relative'}}>
-              {/* POST SETTINGS */}
-              <div className="post-settings widget-box-post-settings-dropdown-trigger">
-                {/* POST SETTINGS ICON */}
-                <svg className="post-settings-icon icon-more-dots">
-                  <use xlinkHref="#svg-more-dots"></use>
-                </svg>
-                {/* /POST SETTINGS ICON */}
-              </div>
-              {/* /POST SETTINGS */}
-      
-              {/* SIMPLE DROPDOWN */}
-              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'z-index': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
-                {/* SIMPLE DROPDOWN LINK */}
-                <p className="simple-dropdown-link">Widget Settings</p>
-                {/* /SIMPLE DROPDOWN LINK */}
-              </div>
-              {/* /SIMPLE DROPDOWN */}
-            </div>
-            {/* /POST SETTINGS WRAP */}
-          </div>
-          {/* /WIDGET BOX SETTINGS */}
-      
-          {/* WIDGET BOX TITLE */}
-          <p className="widget-box-title">Open Quests</p>
-          {/* /WIDGET BOX TITLE */}
-      
-          {/* WIDGET BOX CONTENT */}
-          <div className="widget-box-content">
-            {/* QUEST PREVIEW LIST */}
-            <div className="quest-preview-list">
-              {/* QUEST PREVIEW */}
-              <div className="quest-preview">
-                {/* QUEST PREVIEW INFO */}
-                <div className="quest-preview-info">
-                  {/* QUEST PREVIEW IMAGE */}
-                  <img className="quest-preview-image" src="/img/quest/openq-s.png" alt="openq-s" />
-                  {/* /QUEST PREVIEW IMAGE */}
-            
-                  {/* QUEST PREVIEW TITLE */}
-                  <p className="quest-preview-title">Nothing to hide</p>
-                  {/* /QUEST PREVIEW TITLE */}
-            
-                  {/* QUEST PREVIEW TEXT */}
-                  <p className="quest-preview-text">You have completed all your profile information fields</p>
-                  {/* /QUEST PREVIEW TEXT */}
-                </div>
-                {/* /QUEST PREVIEW INFO */}
-            
-                {/* PROGRESS STAT */}
-                <div className="progress-stat">
-                  {/* PROGRESS STAT BAR */}
-                  <div id="quest-preview-nth" className="progress-stat-bar" style={{'width': '228px', 'height': '4px', 'position': 'relative'}}><canvas width="228" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="228" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
-                  {/* /PROGRESS STAT BAR */}
-                </div>
-                {/* /PROGRESS STAT */}
-              </div>
-              {/* /QUEST PREVIEW */}
-      
-              {/* QUEST PREVIEW */}
-              <div className="quest-preview">
-                {/* QUEST PREVIEW INFO */}
-                <div className="quest-preview-info">
-                  {/* QUEST PREVIEW IMAGE */}
-                  <img className="quest-preview-image" src="/img/quest/openq-s.png" alt="openq-s" />
-                  {/* /QUEST PREVIEW IMAGE */}
-            
-                  {/* QUEST PREVIEW TITLE */}
-                  <p className="quest-preview-title">Social King</p>
-                  {/* /QUEST PREVIEW TITLE */}
-            
-                  {/* QUEST PREVIEW TEXT */}
-                  <p className="quest-preview-text">You have linked at least 8 social networks to your profile</p>
-                  {/* /QUEST PREVIEW TEXT */}
-                </div>
-                {/* /QUEST PREVIEW INFO */}
-            
-                {/* PROGRESS STAT */}
-                <div className="progress-stat">
-                  {/* PROGRESS STAT BAR */}
-                  <div id="quest-preview-sk" className="progress-stat-bar" style={{'width': '228px', 'height': '4px', 'position': 'relative'}}><canvas width="228" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="228" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
-                  {/* /PROGRESS STAT BAR */}
-                </div>
-                {/* /PROGRESS STAT */}
-              </div>
-              {/* /QUEST PREVIEW */}
-      
-              {/* QUEST PREVIEW */}
-              <div className="quest-preview">
-                {/* QUEST PREVIEW INFO */}
-                <div className="quest-preview-info">
-                  {/* QUEST PREVIEW IMAGE */}
-                  <img className="quest-preview-image" src="/img/quest/openq-s.png" alt="openq-s" />
-                  {/* /QUEST PREVIEW IMAGE */}
-            
-                  {/* QUEST PREVIEW TITLE */}
-                  <p className="quest-preview-title">Buffed Profile</p>
-                  {/* /QUEST PREVIEW TITLE */}
-            
-                  {/* QUEST PREVIEW TEXT */}
-                  <p className="quest-preview-text">You have posted every day for at least 30 days in a row</p>
-                  {/* /QUEST PREVIEW TEXT */}
-                </div>
-                {/* /QUEST PREVIEW INFO */}
-            
-                {/* PROGRESS STAT */}
-                <div className="progress-stat">
-                  {/* PROGRESS STAT BAR */}
-                  <div id="quest-preview-bp" className="progress-stat-bar" style={{'width': '228px', 'height': '4px', 'position': 'relative'}}><canvas width="228" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="228" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
-                  {/* /PROGRESS STAT BAR */}
-                </div>
-                {/* /PROGRESS STAT */}
-              </div>
-              {/* /QUEST PREVIEW */}
-      
-              {/* QUEST PREVIEW */}
-              <div className="quest-preview">
-                {/* QUEST PREVIEW INFO */}
-                <div className="quest-preview-info">
-                  {/* QUEST PREVIEW IMAGE */}
-                  <img className="quest-preview-image" src="/img/quest/openq-s.png" alt="openq-s" />
-                  {/* /QUEST PREVIEW IMAGE */}
-            
-                  {/* QUEST PREVIEW TITLE */}
-                  <p className="quest-preview-title">Hear the People</p>
-                  {/* /QUEST PREVIEW TITLE */}
-            
-                  {/* QUEST PREVIEW TEXT */}
-                  <p className="quest-preview-text">You have created and posted your first poll</p>
-                  {/* /QUEST PREVIEW TEXT */}
-                </div>
-                {/* /QUEST PREVIEW INFO */}
-            
-                {/* PROGRESS STAT */}
-                <div className="progress-stat">
-                  {/* PROGRESS STAT BAR */}
-                  <div id="quest-preview-htp" className="progress-stat-bar" style={{'width': '228px', 'height': '4px', 'position': 'relative'}}><canvas width="228" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="228" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
-                  {/* /PROGRESS STAT BAR */}
-                </div>
-                {/* /PROGRESS STAT */}
-              </div>
-              {/* /QUEST PREVIEW */}
-      
-              {/* QUEST PREVIEW */}
-              <div className="quest-preview">
-                {/* QUEST PREVIEW INFO */}
-                <div className="quest-preview-info">
-                  {/* QUEST PREVIEW IMAGE */}
-                  <img className="quest-preview-image" src="/img/quest/openq-s.png" alt="openq-s" />
-                  {/* /QUEST PREVIEW IMAGE */}
-            
-                  {/* QUEST PREVIEW TITLE */}
-                  <p className="quest-preview-title">Store Manager</p>
-                  {/* /QUEST PREVIEW TITLE */}
-            
-                  {/* QUEST PREVIEW TEXT */}
-                  <p className="quest-preview-text">You have uploaded at least 10 items in your shop</p>
-                  {/* /QUEST PREVIEW TEXT */}
-                </div>
-                {/* /QUEST PREVIEW INFO */}
-            
-                {/* PROGRESS STAT */}
-                <div className="progress-stat">
-                  {/* PROGRESS STAT BAR */}
-                  <div id="quest-preview-sm" className="progress-stat-bar" style={{'width': '228px', 'height': '4px', 'position': 'relative'}}><canvas width="228" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas><canvas width="228" height="4" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
-                  {/* /PROGRESS STAT BAR */}
-                </div>
-                {/* /PROGRESS STAT */}
-              </div>
-              {/* /QUEST PREVIEW */}
-            </div>
-            {/* /QUEST PREVIEW LIST */}
-          </div>
-          {/* WIDGET BOX CONTENT */}
-      
-          {/* WIDGET BOX BUTTON */}
-          <a className="widget-box-button button small white" href="quests.html">See all Quests!</a>
-          {/* /WIDGET BOX BUTTON */}
-        </div>
-        {/* /WIDGET BOX */}
-      </div>
-      {/* /GRID COLUMN */}
-
-      {/* GRID COLUMN */}
+       <BannerImageLink bannername="banner-promo" bannerhref="https://themeforest.net/user/odin_design" bannertarget="_blank" bannersrc="/img/banner/banner-promo.jpg" banneralt="banner-promo" />
+       <Widgetbox4 />
+      </div>    
       <div className="grid-column">
         {/* QUICK POST */}
         <div className="quick-post">
@@ -863,7 +681,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
 
                 {/* REACTION OPTION */}
@@ -1425,7 +1243,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}} /><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}} /><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -1683,8 +1501,8 @@ function Newsfeed() {
                     {/* PHOTO PREVIEW */}
                     <div className="photo-preview">
                       {/* PHOTO PREVIEW IMAGE */}
-                      <figure className="photo-preview-image liquid" style={{'background': 'url(&quot;/img/cover/12.jpg&quot;) center center / cover no-repeat'}}>
-                        <img src="/img/cover/12.jpg" alt="photo-preview-12" style={{'display': 'none'}} />
+                      <figure className="photo-preview-image liquid" style={{'background': `url(${bg2.src}) center center / cover no-repeat`}}>
+                        <img src={bg2.src} alt="photo-preview-12" style={{'display': 'none'}} />
                       </figure>
                       {/* /PHOTO PREVIEW IMAGE */}
                   
@@ -1737,8 +1555,8 @@ function Newsfeed() {
                     {/* PHOTO PREVIEW */}
                     <div className="photo-preview">
                       {/* PHOTO PREVIEW IMAGE */}
-                      <figure className="photo-preview-image liquid" style={{'background': 'url(&quot;/img/cover/16.jpg&quot;) center center / cover no-repeat'}}>
-                        <img src="/img/cover/16.jpg" alt="photo-preview-16" style={{'display': 'none'}} />
+                      <figure className="photo-preview-image liquid" style={{'background': `url(${bg3.src}) center center / cover no-repeat`}}>
+                        <img src={bg3.src} alt="photo-preview-16" style={{'display': 'none'}} />
                       </figure>
                       {/* /PHOTO PREVIEW IMAGE */}
                   
@@ -1787,8 +1605,8 @@ function Newsfeed() {
                     {/* PHOTO PREVIEW */}
                     <div className="photo-preview">
                       {/* PHOTO PREVIEW IMAGE */}
-                      <figure className="photo-preview-image liquid" style={{'background': 'url(&quot;/img/cover/08.jpg&quot;) center center / cover no-repeat'}}>
-                        <img src="/img/cover/08.jpg" alt="photo-preview-08" style={{'display': 'none'}} />
+                      <figure className="photo-preview-image liquid" style={{'background': `url(${bg5.src}) center center / cover no-repeat`}}>
+                        <img src={bg5.src} alt="photo-preview-08" style={{'display': 'none'}} />
                       </figure>
                       {/* /PHOTO PREVIEW IMAGE */}
                   
@@ -1845,8 +1663,8 @@ function Newsfeed() {
                     {/* PHOTO PREVIEW */}
                     <div className="photo-preview">
                       {/* PHOTO PREVIEW IMAGE */}
-                      <figure className="photo-preview-image liquid" style={{'background': 'url(&quot;/img/cover/14.jpg&quot;) center center / cover no-repeat'}}>
-                        <img src="/img/cover/14.jpg" alt="photo-preview-14" style={{'display': 'none'}} />
+                      <figure className="photo-preview-image liquid" style={{'background': `url(${bg4.src}) center center / cover no-repeat`}}>
+                        <img src={bg4.src} alt="photo-preview-14" style={{'display': 'none'}} />
                       </figure>
                       {/* /PHOTO PREVIEW IMAGE */}
                   
@@ -2131,7 +1949,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2615,7 +2433,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3211,7 +3029,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -3730,7 +3548,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -4228,7 +4046,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -5240,7 +5058,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 't ranslate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
