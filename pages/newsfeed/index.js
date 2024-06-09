@@ -76,12 +76,7 @@ function Newsfeed() {
       <Simpletabs />
       <Widgetbox5 />
       <Widgetbox6 />
-      
-        </div>
-        {/* /WIDGET BOX */}
-
-        {/* WIDGET BOX */}
-        <div className="widget-box no-padding">
+      <div className="widget-box no-padding">
           {/* WIDGET BOX SETTINGS */}
           <div className="widget-box-settings">
             {/* POST SETTINGS WRAP */}
@@ -784,9 +779,6 @@ function Newsfeed() {
           </div>
           {/* /POST OPTIONS */}
         </div>
-        {/* /WIDGET BOX */}
-
-        {/* WIDGET BOX */}
         <div className="widget-box no-padding">
           {/* WIDGET BOX SETTINGS */}
           <div className="widget-box-settings">
@@ -1268,9 +1260,7 @@ function Newsfeed() {
           </div>
           {/* /POST OPTIONS */}
         </div>
-        {/* /WIDGET BOX */}
 
-        {/* WIDGET BOX */}
         <div className="widget-box no-padding">
           {/* WIDGET BOX SETTINGS */}
           <div className="widget-box-settings">
@@ -1864,10 +1854,9 @@ function Newsfeed() {
           </div>
           {/* /POST OPTIONS */}
         </div>
-        {/* /WIDGET BOX */}
 
-        {/* WIDGET BOX */}
-        <div className="widget-box no-padding">
+  {/* WIDGET BOX */}
+  <div className="widget-box no-padding">
           {/* WIDGET BOX SETTINGS */}
           <div className="widget-box-settings">
             {/* POST SETTINGS WRAP */}
@@ -2383,10 +2372,11 @@ function Newsfeed() {
           </div>
           {/* /POST OPTIONS */}
         </div>
-        {/* /WIDGET BOX */}
-      
-        {/* WIDGET BOX */}
-        <div className="widget-box no-padding">
+
+
+
+   {/* WIDGET BOX */}
+   <div className="widget-box no-padding">
           {/* WIDGET BOX SETTINGS */}
           <div className="widget-box-settings">
             {/* POST SETTINGS WRAP */}
@@ -2881,7 +2871,10 @@ function Newsfeed() {
           </div>
           {/* /POST OPTIONS */}
         </div>
-        {/* /WIDGET BOX */}
+
+
+
+
       
         {/* WIDGET BOX */}
         <div className="widget-box no-padding">
@@ -3906,8 +3899,19 @@ function Newsfeed() {
           <div className="loader-bar"></div>
           <div className="loader-bar"></div>
         </div>
+
+
+        </div>
+
+        {/* /WIDGET BOX */}
+
+      
+        {/* /WIDGET BOX */}
+      
+     
+        {/* /WIDGET BOX */}
         {/* /LOADER BARS */}
-      </div>
+      
       {/* /GRID COLUMN */}
 
       {/* GRID COLUMN */}
@@ -5758,7 +5762,7 @@ function Newsfeed() {
       </div>
       {/* /GRID COLUMN */}
     </div>
-    
+    </div>
 
   </div>
    
