@@ -25,6 +25,7 @@ import bg2 from '../../public/img/cover/12.jpg';
 import bg3 from '../../public/img/cover/16.jpg';
 import bg4 from '../../public/img/cover/14.jpg';
 import bg5 from '../../public/img/cover/08.jpg';
+import Loadingbars from '../../components/Loadingbars';
 
 function Newsfeed() {
     const bannerImageUrl = '/img/banner/newsfeed-icon.png';
@@ -3888,17 +3889,7 @@ function Newsfeed() {
         </div>
         {/* /WIDGET BOX */}
 
-        {/* LOADER BARS */}
-        <div className="loader-bars">
-          <div className="loader-bar"></div>
-          <div className="loader-bar"></div>
-          <div className="loader-bar"></div>
-          <div className="loader-bar"></div>
-          <div className="loader-bar"></div>
-          <div className="loader-bar"></div>
-          <div className="loader-bar"></div>
-          <div className="loader-bar"></div>
-        </div>
+    <Loadingbars />
 
 
         </div>
