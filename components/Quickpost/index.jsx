@@ -99,7 +99,7 @@ function QuickPost() {
         <use xlinkHref="#svg-camera"></use>
       </svg>
       {/* /QUICK POST FOOTER ACTION ICON */}
-    <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-32px', 'left': '50%', 'margin-left': '-42.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Insert Photo</p></div></div>
+    <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-32px', 'left': '50%', 'marginLeft': '-42.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Insert Photo</p></div></div>
     {/* /QUICK POST FOOTER ACTION */}
 
     {/* QUICK POST FOOTER ACTION */}
@@ -109,7 +109,7 @@ function QuickPost() {
         <use xlinkHref="#svg-gif"></use>
       </svg>
       {/* /QUICK POST FOOTER ACTION ICON */}
-    <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-32px', 'left': '50%', 'margin-left': '-35.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Insert GIF</p></div></div>
+    <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-32px', 'left': '50%', 'marginLeft': '-35.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Insert GIF</p></div></div>
     {/* /QUICK POST FOOTER ACTION */}
 
     {/* QUICK POST FOOTER ACTION */}
@@ -119,7 +119,7 @@ function QuickPost() {
         <use xlinkHref="#svg-tags"></use>
       </svg>
       {/* /QUICK POST FOOTER ACTION ICON */}
-    <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-32px', 'left': '50%', 'margin-left': '-36.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Insert Tag</p></div></div>
+    <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-32px', 'left': '50%', 'marginLeft': '-36.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Insert Tag</p></div></div>
     {/* /QUICK POST FOOTER ACTION */}
   </div>
   {/* /QUICK POST FOOTER ACTIONS */}

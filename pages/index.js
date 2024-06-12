@@ -78,7 +78,7 @@ export default function Home() {
           align-items: center;
         }
         footer img {
-          margin-left: 0.5rem;
+          marginLeft: 0.5rem;
         }
         footer a {
           display: flex;

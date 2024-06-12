@@ -10,19 +10,9 @@ import Bar1 from '../../components/Bar';
 import Banner from '../../components/Banner';
 import BannerImageLink from '../../components/Banner/ImageLink';
 import Head from 'next/head';
-import Widgetbox1 from '../../components/Widgetbox/1';
-import Widgetbox2 from '../../components/Widgetbox/2';
-import Widgetbox3 from '../../components/Widgetbox/3';
-import Widgetbox4 from '../../components/Widgetbox/4';
-import Widgetbox5 from '../../components/Widgetbox/5';
-import Widgetbox6 from '../../components/Widgetbox/6';
-import Widgetbox7 from '../../components/Widgetbox/7';
-import Widgetbox8 from '../../components/Widgetbox/8';
-import Widgetbox9 from '../../components/Widgetbox/9';
-import QuickPost from '../../components/Quickpost';
-import Simpletabs from '../../components/Simpletabs';
-import Loadingbars from '../../components/Loadingbars';
 import Groupmenu from '../../components/Group/menu';
+import Groupitem from '../../components/Group/groupitem';
+import jsonData from '../../groupstest.json'
 
 function Groups() {
     const bannerImageUrl = '/img/banner/groups-icon.png';
@@ -59,15 +49,14 @@ function Groups() {
     <Chatwidget1 />
     <Header1 />
     <Bar1 />
-    <div className="content-grid">
+    <div className="content-grid" style={{'transform': 'translate(368px)', 'transition': 'transform 0.4s ease-in-out'}}>
    <Banner bannerdescription={description} bannertitle={title1} bannerimage={bannerImageUrl}/>
    <Groupmenu />
-   <div className="grid grid-4-4-4 centered">
-     
-     
+     <Groupitem jsonData={jsonData} />
+
       {/* /GRID COLUMN */}
     </div>
-    </div>
+   
 
   </div>
    

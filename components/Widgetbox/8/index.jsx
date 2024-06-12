@@ -390,7 +390,7 @@ return (
             {/* REACTION OPTION IMAGE */}
             <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
             {/* /REACTION OPTION IMAGE */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
+          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
           {/* /REACTION OPTION */}
 
           {/* REACTION OPTION */}
@@ -398,7 +398,7 @@ return (
             {/* REACTION OPTION IMAGE */}
             <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
             {/* /REACTION OPTION IMAGE */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
+          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
           {/* /REACTION OPTION */}
 
           {/* REACTION OPTION */}
@@ -406,7 +406,7 @@ return (
             {/* REACTION OPTION IMAGE */}
             <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
             {/* /REACTION OPTION IMAGE */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
           {/* /REACTION OPTION */}
 
           {/* REACTION OPTION */}
@@ -414,7 +414,7 @@ return (
             {/* REACTION OPTION IMAGE */}
             <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
             {/* /REACTION OPTION IMAGE */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
+          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
           {/* /REACTION OPTION */}
 
           {/* REACTION OPTION */}
@@ -422,7 +422,7 @@ return (
             {/* REACTION OPTION IMAGE */}
             <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
             {/* /REACTION OPTION IMAGE */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
+          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
           {/* /REACTION OPTION */}
 
           {/* REACTION OPTION */}
@@ -430,7 +430,7 @@ return (
             {/* REACTION OPTION IMAGE */}
             <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
             {/* /REACTION OPTION IMAGE */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
+          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
           {/* /REACTION OPTION */}
 
           {/* REACTION OPTION */}
@@ -438,7 +438,7 @@ return (
             {/* REACTION OPTION IMAGE */}
             <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
             {/* /REACTION OPTION IMAGE */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
+          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
           {/* /REACTION OPTION */}
 
           {/* REACTION OPTION */}
@@ -446,7 +446,7 @@ return (
             {/* REACTION OPTION IMAGE */}
             <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
             {/* /REACTION OPTION IMAGE */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'margin-left': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
+          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
           {/* /REACTION OPTION */}
         </div>
         {/* /REACTION OPTIONS */}
