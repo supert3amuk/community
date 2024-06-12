@@ -1,4 +1,10 @@
 "use client";
+
+import bg1 from '../../../public/img/cover/10.jpg';
+import bg2 from '../../../public/img/cover/12.jpg';
+import bg3 from '../../../public/img/cover/16.jpg';
+import bg4 from '../../../public/img/cover/14.jpg';
+import bg5 from '../../../public/img/cover/08.jpg';
 export default function Widget6() {
 return (
 
