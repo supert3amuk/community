@@ -2,15 +2,15 @@
 export default function Widget5() {
 return (
 
-<div class="widget-box no-padding">
+<div className="widget-box no-padding">
           {/* WIDGET BOX SETTINGS */}
-          <div class="widget-box-settings">
+          <div className="widget-box-settings">
             {/* POST SETTINGS WRAP */}
-            <div class="post-settings-wrap" style={{'position': 'relative'}}>
+            <div className="post-settings-wrap" style={{'position': 'relative'}}>
               {/* POST SETTINGS */}
-              <div class="post-settings widget-box-post-settings-dropdown-trigger">
+              <div className="post-settings widget-box-post-settings-dropdown-trigger">
                 {/* POST SETTINGS ICON */}
-                <svg class="post-settings-icon icon-more-dots">
+                <svg className="post-settings-icon icon-more-dots">
                   <use xlinkHref="#svg-more-dots"></use>
                 </svg>
                 {/* /POST SETTINGS ICON */}
@@ -18,25 +18,25 @@ return (
               {/* /POST SETTINGS */}
       
               {/* SIMPLE DROPDOWN */}
-              <div class="simple-dropdown widget-box-post-settings-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* SIMPLE DROPDOWN LINK */}
-                <p class="simple-dropdown-link">Edit Post</p>
+                <p className="simple-dropdown-link">Edit Post</p>
                 {/* /SIMPLE DROPDOWN LINK */}
       
                 {/* SIMPLE DROPDOWN LINK */}
-                <p class="simple-dropdown-link">Delete Post</p>
+                <p className="simple-dropdown-link">Delete Post</p>
                 {/* /SIMPLE DROPDOWN LINK */}
       
                 {/* SIMPLE DROPDOWN LINK */}
-                <p class="simple-dropdown-link">Make it Featured</p>
+                <p className="simple-dropdown-link">Make it Featured</p>
                 {/* /SIMPLE DROPDOWN LINK */}
       
                 {/* SIMPLE DROPDOWN LINK */}
-                <p class="simple-dropdown-link">Report Post</p>
+                <p className="simple-dropdown-link">Report Post</p>
                 {/* /SIMPLE DROPDOWN LINK */}
       
                 {/* SIMPLE DROPDOWN LINK */}
-                <p class="simple-dropdown-link">Report Author</p>
+                <p className="simple-dropdown-link">Report Author</p>
                 {/* /SIMPLE DROPDOWN LINK */}
               </div>
               {/* /SIMPLE DROPDOWN */}
@@ -46,51 +46,51 @@ return (
           {/* /WIDGET BOX SETTINGS */}
           
           {/* WIDGET BOX STATUS */}
-          <div class="widget-box-status">
+          <div className="widget-box-status">
             {/* WIDGET BOX STATUS CONTENT */}
-            <div class="widget-box-status-content">
+            <div className="widget-box-status-content">
               {/* USER STATUS */}
-              <div class="user-status">
+              <div className="user-status">
                 {/* USER STATUS AVATAR */}
-                <a class="user-status-avatar" href="profile-timeline.html">
+                <a className="user-status-avatar" href="profile-timeline.html">
                   {/* USER AVATAR */}
-                  <div class="user-avatar small no-outline">
+                  <div className="user-avatar small no-outline">
                     {/* USER AVATAR CONTENT */}
-                    <div class="user-avatar-content">
+                    <div className="user-avatar-content">
                       {/* HEXAGON */}
-                      <div class="hexagon-image-30-32" data-src="/img/avatar/07.jpg" style={{'width': '30px', 'height': '32px', 'position': 'relative'}}><canvas width="30" height="32" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                      <div className="hexagon-image-30-32" data-src="/img/avatar/07.jpg" style={{'width': '30px', 'height': '32px', 'position': 'relative'}}><canvas width="30" height="32" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                       {/* /HEXAGON */}
                     </div>
                     {/* /USER AVATAR CONTENT */}
                 
                     {/* USER AVATAR PROGRESS */}
-                    <div class="user-avatar-progress">
+                    <div className="user-avatar-progress">
                       {/* HEXAGON */}
-                      <div class="hexagon-progress-40-44" style={{'width': '40px', 'height': '44px', 'position': 'relative'}}><canvas width="40" height="44" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                      <div className="hexagon-progress-40-44" style={{'width': '40px', 'height': '44px', 'position': 'relative'}}><canvas width="40" height="44" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                       {/* /HEXAGON */}
                     </div>
                     {/* /USER AVATAR PROGRESS */}
                 
                     {/* USER AVATAR PROGRESS BORDER */}
-                    <div class="user-avatar-progress-border">
+                    <div className="user-avatar-progress-border">
                       {/* HEXAGON */}
-                      <div class="hexagon-border-40-44" style={{'width': '40px', 'height': '44px', 'position': 'relative'}}><canvas width="40" height="44" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                      <div className="hexagon-border-40-44" style={{'width': '40px', 'height': '44px', 'position': 'relative'}}><canvas width="40" height="44" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                       {/* /HEXAGON */}
                     </div>
                     {/* /USER AVATAR PROGRESS BORDER */}
                 
                     {/* USER AVATAR BADGE */}
-                    <div class="user-avatar-badge">
+                    <div className="user-avatar-badge">
                       {/* USER AVATAR BADGE BORDER */}
-                      <div class="user-avatar-badge-border">
+                      <div className="user-avatar-badge-border">
                         {/* HEXAGON */}
-                        <div class="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                        <div className="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                         {/* /HEXAGON */}
                       </div>
                       {/* /USER AVATAR BADGE BORDER */}
                 
                       {/* USER AVATAR BADGE CONTENT */}
-                      <div class="user-avatar-badge-content">
+                      <div className="user-avatar-badge-content">
                         {/* HEXAGON */}
                         <div className="hexagon-dark-16-18" style={{width: '16px', height: '18px', position: 'relative'}}><canvas width="16" height="18" style={{position: 'absolute', top: '0px', left: '0px'}}></canvas></div>
                         {/* /HEXAGON */}
@@ -98,7 +98,7 @@ return (
                       {/* /USER AVATAR BADGE CONTENT */}
                 
                       {/* USER AVATAR BADGE TEXT */}
-                      <p class="user-avatar-badge-text">26</p>
+                      <p className="user-avatar-badge-text">26</p>
                       {/* /USER AVATAR BADGE TEXT */}
                     </div>
                     {/* /USER AVATAR BADGE */}
@@ -108,40 +108,40 @@ return (
                 {/* /USER STATUS AVATAR */}
             
                 {/* USER STATUS TITLE */}
-                <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Sarah Diamond</a> created a <span class="bold">poll</span></p>
+                <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Sarah Diamond</a> created a <span className="bold">poll</span></p>
                 {/* /USER STATUS TITLE */}
             
                 {/* USER STATUS TEXT */}
-                <p class="user-status-text small">9 minutes ago</p>
+                <p className="user-status-text small">9 minutes ago</p>
                 {/* /USER STATUS TEXT */}
               </div>
               {/* /USER STATUS */}
       
               {/* WIDGET BOX STATUS TEXT */}
-              <p class="widget-box-status-text">I've created a poll to ask all of you what you would like to see more in my upcoming videos! It will only take a couple of seconds...thanks to all in advance!!</p>
+              <p className="widget-box-status-text">I've created a poll to ask all of you what you would like to see more in my upcoming videos! It will only take a couple of seconds...thanks to all in advance!!</p>
               {/* /WIDGET BOX STATUS TEXT */}
       
               {/* POLL BOX */}
-              <div class="poll-box">
+              <div className="poll-box">
                 {/* POLL TITLE */}
-                <p class="poll-title">What do you wanna see in my upcoming videos?</p>
+                <p className="poll-title">What do you wanna see in my upcoming videos?</p>
                 {/* /POLL TITLE */}
             
                 {/* POLL TEXT */}
-                <p class="poll-text">Poll ends in 5 days</p>
+                <p className="poll-text">Poll ends in 5 days</p>
                 {/* /POLL TEXT */}
             
                 {/* FORM */}
-                <form class="form">
+                <form className="form">
                   {/* FORM ROW */}
-                  <div class="form-row">
+                  <div className="form-row">
                     {/* FORM ITEM */}
-                    <div class="form-item">
+                    <div className="form-item">
                       {/* CHECKBOX WRAP */}
-                      <div class="checkbox-wrap">
+                      <div className="checkbox-wrap">
                         <input type="radio" id="poll-option-1" name="poll_option" value="option-1" />
                         {/* CHECKBOX BOX */}
-                        <div class="checkbox-box round"></div>
+                        <div className="checkbox-box round"></div>
                         {/* /CHECKBOX BOX */}
                         <label for="poll-option-1">Retro Games</label>
                       </div>
@@ -152,14 +152,14 @@ return (
                   {/* /FORM ROW */}
             
                   {/* FORM ROW */}
-                  <div class="form-row">
+                  <div className="form-row">
                     {/* FORM ITEM */}
-                    <div class="form-item">
+                    <div className="form-item">
                       {/* CHECKBOX WRAP */}
-                      <div class="checkbox-wrap">
+                      <div className="checkbox-wrap">
                         <input type="radio" id="poll-option-2" name="poll_option" value="option-2" checked="" />
                         {/* CHECKBOX BOX */}
-                        <div class="checkbox-box round"></div>
+                        <div className="checkbox-box round"></div>
                         {/* /CHECKBOX BOX */}
                         <label for="poll-option-2">Walkthroughs</label>
                       </div>
@@ -170,14 +170,14 @@ return (
                   {/* /FORM ROW */}
             
                   {/* FORM ROW */}
-                  <div class="form-row">
+                  <div className="form-row">
                     {/* FORM ITEM */}
-                    <div class="form-item">
+                    <div className="form-item">
                       {/* CHECKBOX WRAP */}
-                      <div class="checkbox-wrap">
+                      <div className="checkbox-wrap">
                         <input type="radio" id="poll-option-3" name="poll_option" value="option-3" />
                         {/* CHECKBOX BOX */}
-                        <div class="checkbox-box round"></div>
+                        <div className="checkbox-box round"></div>
                         {/* /CHECKBOX BOX */}
                         <label for="poll-option-3">Unboxings</label>
                       </div>
@@ -190,13 +190,13 @@ return (
                 {/* /FORM */}
             
                 {/* POLL BOX ACTIONS */}
-                <div class="poll-box-actions">
+                <div className="poll-box-actions">
                   {/* BUTTON */}
-                  <p class="button small secondary">Vote Now!</p>
+                  <p className="button small secondary">Vote Now!</p>
                   {/* /BUTTON */}
             
                   {/* BUTTON */}
-                  <p class="button small white">See Results</p>
+                  <p className="button small white">See Results</p>
                   {/* /BUTTON */}
                 </div>
                 {/* /POLL BOX ACTIONS */}
@@ -204,35 +204,35 @@ return (
               {/* /POLL BOX */}
       
               {/* CONTENT ACTIONS */}
-              <div class="content-actions">
+              <div className="content-actions">
                 {/* CONTENT ACTION */}
-                <div class="content-action">
+                <div className="content-action">
                   {/* META LINE */}
-                  <div class="meta-line">
+                  <div className="meta-line">
                     {/* META LINE LIST */}
-                    <div class="meta-line-list reaction-item-list">
+                    <div className="meta-line-list reaction-item-list">
                       {/* REACTION ITEM */}
-                      <div class="reaction-item" style={{'position': 'relative'}}>
+                      <div className="reaction-item" style={{'position': 'relative'}}>
                         {/* REACTION IMAGE */}
-                        <img class="reaction-image reaction-item-dropdown-trigger" src="/img/reaction/funny.png" alt="reaction-funny" />
+                        <img className="reaction-image reaction-item-dropdown-trigger" src="/img/reaction/funny.png" alt="reaction-funny" />
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
                         <div className="simple-dropdown padded reaction-item-dropdown" style={{position: 'absolute', zIndex: 9999, bottom: '38px', left: '-16px', opacity: 0, visibility: 'hidden', transform: 'translate(0px, 20px)', transition: 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text"><img class="reaction" src="/img/reaction/funny.png" alt="reaction-funny" /> <span class="bold">Funny</span></p>
+                          <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/funny.png" alt="reaction-funny" /> <span className="bold">Funny</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
                         
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text">Matt Parker</p>
+                          <p className="simple-dropdown-text">Matt Parker</p>
                           {/* /SIMPLE DROPDOWN TEXT */}
       
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text">Destroy Dex</p>
+                          <p className="simple-dropdown-text">Destroy Dex</p>
                           {/* /SIMPLE DROPDOWN TEXT */}
       
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text">The Green Goo</p>
+                          <p className="simple-dropdown-text">The Green Goo</p>
                           {/* /SIMPLE DROPDOWN TEXT */}
                         </div>
                         {/* /SIMPLE DROPDOWN */}
@@ -240,23 +240,23 @@ return (
                       {/* /REACTION ITEM */}
       
                       {/* REACTION ITEM */}
-                      <div class="reaction-item" style={{'position': 'relative'}}>
+                      <div className="reaction-item" style={{'position': 'relative'}}>
                         {/* REACTION IMAGE */}
-                        <img class="reaction-image reaction-item-dropdown-trigger" src="/img/reaction/like.png" alt="reaction-like" />
+                        <img className="reaction-image reaction-item-dropdown-trigger" src="/img/reaction/like.png" alt="reaction-like" />
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
                         <div className="simple-dropdown padded reaction-item-dropdown" style={{position: 'absolute', zIndex: 9999, bottom: '38px', left: '-16px', opacity: 0, visibility: 'hidden', transform: 'translate(0px, 20px)', transition: 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text"><img class="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span class="bold">Like</span></p>
+                          <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
                         
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text">Sandra Strange</p>
+                          <p className="simple-dropdown-text">Sandra Strange</p>
                           {/* /SIMPLE DROPDOWN TEXT */}
       
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text">Jane Rodgers</p>
+                          <p className="simple-dropdown-text">Jane Rodgers</p>
                           {/* /SIMPLE DROPDOWN TEXT */}
                         </div>
                         {/* /SIMPLE DROPDOWN */}
@@ -264,31 +264,31 @@ return (
                       {/* /REACTION ITEM */}
       
                       {/* REACTION ITEM */}
-                      <div class="reaction-item" style={{'position': 'relative'}}>
+                      <div className="reaction-item" style={{'position': 'relative'}}>
                         {/* REACTION IMAGE */}
-                        <img class="reaction-image reaction-item-dropdown-trigger" src="/img/reaction/love.png" alt="reaction-love" />
+                        <img className="reaction-image reaction-item-dropdown-trigger" src="/img/reaction/love.png" alt="reaction-love" />
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
                         <div className="simple-dropdown padded reaction-item-dropdown" style={{position: 'absolute', zIndex: 9999, bottom: '38px', left: '-16px', opacity: 0, visibility: 'hidden', transform: 'translate(0px, 20px)', transition: 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text"><img class="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span class="bold">Love</span></p>
+                          <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
                         
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text">Neko Bebop</p>
+                          <p className="simple-dropdown-text">Neko Bebop</p>
                           {/* /SIMPLE DROPDOWN TEXT */}
       
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text">Nick Grissom</p>
+                          <p className="simple-dropdown-text">Nick Grissom</p>
                           {/* /SIMPLE DROPDOWN TEXT */}
       
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text">Sarah Diamond</p>
+                          <p className="simple-dropdown-text">Sarah Diamond</p>
                           {/* /SIMPLE DROPDOWN TEXT */}
       
                           {/* SIMPLE DROPDOWN TEXT */}
-                          <p class="simple-dropdown-text">Jett Spiegel</p>
+                          <p className="simple-dropdown-text">Jett Spiegel</p>
                           {/* /SIMPLE DROPDOWN TEXT */}
                         </div>
                         {/* /SIMPLE DROPDOWN */}
@@ -298,29 +298,29 @@ return (
                     {/* /META LINE LIST */}
             
                     {/* META LINE TEXT */}
-                    <p class="meta-line-text">9</p>
+                    <p className="meta-line-text">9</p>
                     {/* /META LINE TEXT */}
                   </div>
                   {/* /META LINE */}
             
                   {/* META LINE */}
-                  <div class="meta-line">
+                  <div className="meta-line">
                     {/* META LINE LIST */}
-                    <div class="meta-line-list user-avatar-list">
+                    <div className="meta-line-list user-avatar-list">
                       {/* USER AVATAR */}
-                      <div class="user-avatar micro no-stats">
+                      <div className="user-avatar micro no-stats">
                         {/* USER AVATAR BORDER */}
-                        <div class="user-avatar-border">
+                        <div className="user-avatar-border">
                           {/* HEXAGON */}
-                          <div class="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                          <div className="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR BORDER */}
                     
                         {/* USER AVATAR CONTENT */}
-                        <div class="user-avatar-content">
+                        <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div class="hexagon-image-18-20" data-src="/img/avatar/09.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/09.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -328,19 +328,19 @@ return (
                       {/* /USER AVATAR */}
             
                       {/* USER AVATAR */}
-                      <div class="user-avatar micro no-stats">
+                      <div className="user-avatar micro no-stats">
                         {/* USER AVATAR BORDER */}
-                        <div class="user-avatar-border">
+                        <div className="user-avatar-border">
                           {/* HEXAGON */}
-                          <div class="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                          <div className="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR BORDER */}
                     
                         {/* USER AVATAR CONTENT */}
-                        <div class="user-avatar-content">
+                        <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div class="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/08.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -348,19 +348,19 @@ return (
                       {/* /USER AVATAR */}
             
                       {/* USER AVATAR */}
-                      <div class="user-avatar micro no-stats">
+                      <div className="user-avatar micro no-stats">
                         {/* USER AVATAR BORDER */}
-                        <div class="user-avatar-border">
+                        <div className="user-avatar-border">
                           {/* HEXAGON */}
-                          <div class="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                          <div className="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR BORDER */}
                     
                         {/* USER AVATAR CONTENT */}
-                        <div class="user-avatar-content">
+                        <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div class="hexagon-image-18-20" data-src="/img/avatar/12.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/12.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -368,19 +368,19 @@ return (
                       {/* /USER AVATAR */}
             
                       {/* USER AVATAR */}
-                      <div class="user-avatar micro no-stats">
+                      <div className="user-avatar micro no-stats">
                         {/* USER AVATAR BORDER */}
-                        <div class="user-avatar-border">
+                        <div className="user-avatar-border">
                           {/* HEXAGON */}
-                          <div class="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                          <div className="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR BORDER */}
                     
                         {/* USER AVATAR CONTENT */}
-                        <div class="user-avatar-content">
+                        <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div class="hexagon-image-18-20" data-src="/img/avatar/16.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/16.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -388,19 +388,19 @@ return (
                       {/* /USER AVATAR */}
             
                       {/* USER AVATAR */}
-                      <div class="user-avatar micro no-stats">
+                      <div className="user-avatar micro no-stats">
                         {/* USER AVATAR BORDER */}
-                        <div class="user-avatar-border">
+                        <div className="user-avatar-border">
                           {/* HEXAGON */}
-                          <div class="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                          <div className="hexagon-22-24" style={{'width': '22px', 'height': '24px', 'position': 'relative'}}><canvas width="22" height="24" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR BORDER */}
                     
                         {/* USER AVATAR CONTENT */}
-                        <div class="user-avatar-content">
+                        <div className="user-avatar-content">
                           {/* HEXAGON */}
-                          <div class="hexagon-image-18-20" data-src="/img/avatar/06.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
+                          <div className="hexagon-image-18-20" data-src="/img/avatar/06.jpg" style={{'width': '18px', 'height': '20px', 'position': 'relative'}}><canvas width="18" height="20" style={{'position': 'absolute', 'top': '0px', 'left': '0px'}}></canvas></div>
                           {/* /HEXAGON */}
                         </div>
                         {/* /USER AVATAR CONTENT */}
@@ -410,7 +410,7 @@ return (
                     {/* /META LINE LIST */}
             
                     {/* META LINE TEXT */}
-                    <p class="meta-line-text">11 Participants</p>
+                    <p className="meta-line-text">11 Participants</p>
                     {/* /META LINE TEXT */}
                   </div>
                   {/* /META LINE */}
@@ -418,19 +418,19 @@ return (
                 {/* /CONTENT ACTION */}
             
                 {/* CONTENT ACTION */}
-                <div class="content-action">
+                <div className="content-action">
                   {/* META LINE */}
-                  <div class="meta-line">
+                  <div className="meta-line">
                     {/* META LINE LINK */}
-                    <p class="meta-line-link">1 Comments</p>
+                    <p className="meta-line-link">1 Comments</p>
                     {/* /META LINE LINK */}
                   </div>
                   {/* /META LINE */}
             
                   {/* META LINE */}
-                  <div class="meta-line">
+                  <div className="meta-line">
                     {/* META LINE TEXT */}
-                    <p class="meta-line-text">0 Shares</p>
+                    <p className="meta-line-text">0 Shares</p>
                     {/* /META LINE TEXT */}
                   </div>
                   {/* /META LINE */}
@@ -444,19 +444,19 @@ return (
           {/* /WIDGET BOX STATUS */}
       
           {/* POST OPTIONS */}
-          <div class="post-options">
+          <div className="post-options">
             {/* POST OPTION WRAP */}
-            <div class="post-option-wrap" style={{'position': 'relative'}}>
+            <div className="post-option-wrap" style={{'position': 'relative'}}>
               {/* POST OPTION */}
-              <div class="post-option reaction-options-dropdown-trigger">
+              <div className="post-option reaction-options-dropdown-trigger">
                 {/* POST OPTION ICON */}
-                <svg class="post-option-icon icon-thumbs-up">
+                <svg className="post-option-icon icon-thumbs-up">
                   <use xlinkHref="#svg-thumbs-up"></use>
                 </svg>
                 {/* /POST OPTION ICON */}
       
                 {/* POST OPTION TEXT */}
-                <p class="post-option-text">React!</p>
+                <p className="post-option-text">React!</p>
                 {/* /POST OPTION TEXT */}
               </div>
               {/* /POST OPTION */}
@@ -538,29 +538,29 @@ return (
             {/* /POST OPTION WRAP */}
       
             {/* POST OPTION */}
-            <div class="post-option">
+            <div className="post-option">
               {/* POST OPTION ICON */}
-              <svg class="post-option-icon icon-comment">
+              <svg className="post-option-icon icon-comment">
                 <use xlinkHref="#svg-comment"></use>
               </svg>
               {/* /POST OPTION ICON */}
       
               {/* POST OPTION TEXT */}
-              <p class="post-option-text">Comment</p>
+              <p className="post-option-text">Comment</p>
               {/* /POST OPTION TEXT */}
             </div>
             {/* /POST OPTION */}
       
             {/* POST OPTION */}
-            <div class="post-option">
+            <div className="post-option">
               {/* POST OPTION ICON */}
-              <svg class="post-option-icon icon-share">
+              <svg className="post-option-icon icon-share">
                 <use xlinkHref="#svg-share"></use>
               </svg>
               {/* /POST OPTION ICON */}
       
               {/* POST OPTION TEXT */}
-              <p class="post-option-text">Share</p>
+              <p className="post-option-text">Share</p>
               {/* /POST OPTION TEXT */}
             </div>
             {/* /POST OPTION */}

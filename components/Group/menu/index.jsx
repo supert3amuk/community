@@ -92,7 +92,7 @@ function groupmenu() {
               <use xlinkHref="#svg-big-grid-view"></use>
             </svg>
             {/* /VIEW ACTION ICON */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-32px', 'left': '50%', 'marginLeft': '-31.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px)', 'transition': '0.3s ease-in-out'}}><p className="xm-tooltip-text">Big Grid</p></div></div>
+          <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-32px', 'left': '50%', 'marginLeft': '-31.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px)', 'transition': '0.3s ease-in-out'}}><p className="xm-tooltip-text">Big Grid</p></div></div>
           {/* /VIEW ACTION */}
   
           {/* VIEW ACTION */}
@@ -102,7 +102,7 @@ function groupmenu() {
               <use xlinkHref="#svg-small-grid-view"></use>
             </svg>
             {/* /VIEW ACTION ICON */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-32px', 'left': '50%', 'marginLeft': '-37.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px)', 'transition': '0.3s ease-in-out'}}><p className="xm-tooltip-text">Small Grid</p></div></div>
+          <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-32px', 'left': '50%', 'marginLeft': '-37.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px)', 'transition': '0.3s ease-in-out'}}><p className="xm-tooltip-text">Small Grid</p></div></div>
           {/* /VIEW ACTION */}
   
           {/* VIEW ACTION */}
@@ -112,7 +112,7 @@ function groupmenu() {
               <use xlinkHref="#svg-list-grid-view"></use>
             </svg>
             {/* /VIEW ACTION ICON */}
-          <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-32px', 'left': '50%', 'marginLeft': '-21px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px)', 'transition': '0.3s ease-in-out'}}><p className="xm-tooltip-text">List</p></div></div>
+          <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-32px', 'left': '50%', 'marginLeft': '-21px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px)', 'transition': '0.3s ease-in-out'}}><p className="xm-tooltip-text">List</p></div></div>
           {/* /VIEW ACTION */}
         </div>
         {/* /VIEW ACTIONS */}

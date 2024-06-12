@@ -94,7 +94,7 @@ function Newsfeed() {
               {/* /POST SETTINGS */}
       
               {/* SIMPLE DROPDOWN */}
-              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'z-index': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'zIndex': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* SIMPLE DROPDOWN LINK */}
                 <p className="simple-dropdown-link">Edit Post</p>
                 {/* /SIMPLE DROPDOWN LINK */}
@@ -243,7 +243,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -271,7 +271,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/happy.png" alt="reaction-happy" /> <span className="bold">Happy</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -291,7 +291,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -495,13 +495,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
       
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -509,7 +509,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -517,7 +517,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -525,7 +525,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -533,7 +533,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -541,7 +541,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -549,7 +549,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -557,7 +557,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -614,7 +614,7 @@ function Newsfeed() {
               {/* /POST SETTINGS */}
       
               {/* SIMPLE DROPDOWN */}
-              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'z-index': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'zIndex': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* SIMPLE DROPDOWN LINK */}
                 <p className="simple-dropdown-link">Edit Post</p>
                 {/* /SIMPLE DROPDOWN LINK */}
@@ -721,7 +721,7 @@ function Newsfeed() {
       
             {/* IFRAME WRAP */}
             <div className="iframe-wrap">
-              <iframe src="https://giphy.com/embed/1LnQIODGufGec" allowfullscreen=""></iframe>
+              <iframe src="https://giphy.com/embed/1LnQIODGufGec" allowFullScreen=""></iframe>
             </div>
             {/* /IFRAME WRAP */}
       
@@ -742,7 +742,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -770,7 +770,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/happy.png" alt="reaction-happy" /> <span className="bold">Happy</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -794,7 +794,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -994,13 +994,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
       
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -1008,7 +1008,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -1016,7 +1016,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -1024,7 +1024,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -1032,7 +1032,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -1040,7 +1040,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -1048,7 +1048,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -1056,7 +1056,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -1115,7 +1115,7 @@ function Newsfeed() {
               {/* /POST SETTINGS */}
       
               {/* SIMPLE DROPDOWN */}
-              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'z-index': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'zIndex': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* SIMPLE DROPDOWN LINK */}
                 <p className="simple-dropdown-link">Edit Post</p>
                 {/* /SIMPLE DROPDOWN LINK */}
@@ -1765,7 +1765,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/funny.png" alt="reaction-funny" /> <span className="bold">Funny</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -1793,7 +1793,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/like.png" alt="reaction-like" /> <span className="bold">Like</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -1817,7 +1817,7 @@ function Newsfeed() {
                         {/* /REACTION IMAGE */}
             
                         {/* SIMPLE DROPDOWN */}
-                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+                        <div className="simple-dropdown padded reaction-item-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '38px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                           {/* SIMPLE DROPDOWN TEXT */}
                           <p className="simple-dropdown-text"><img className="reaction" src="/img/reaction/love.png" alt="reaction-love" /> <span className="bold">Love</span></p>
                           {/* /SIMPLE DROPDOWN TEXT */}
@@ -2009,13 +2009,13 @@ function Newsfeed() {
               {/* /POST OPTION */}
       
               {/* REACTION OPTIONS */}
-              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'z-index': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+              <div className="reaction-options reaction-options-dropdown" style={{'position': 'absolute', 'zIndex': '9999', 'bottom': '54px', 'left': '-16px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 20px); transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* REACTION OPTION */}
                 <div className="reaction-option text-tooltip-tft" data-title="Like" style={{position: 'relative'}}>
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/like.png" alt="reaction-like" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-22px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Like</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2023,7 +2023,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/love.png" alt="reaction-love" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-23.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Love</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2031,7 +2031,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/dislike.png" alt="reaction-dislike" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-28px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Dislike</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2039,7 +2039,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/happy.png" alt="reaction-happy" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Happy</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2047,7 +2047,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/funny.png" alt="reaction-funny" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-27px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Funny</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2055,7 +2055,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/wow.png" alt="reaction-wow" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-24px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Wow</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2063,7 +2063,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/angry.png" alt="reaction-angry" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-26.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Angry</p></div></div>
                 {/* /REACTION OPTION */}
       
                 {/* REACTION OPTION */}
@@ -2071,7 +2071,7 @@ function Newsfeed() {
                   {/* REACTION OPTION IMAGE */}
                   <img className="reaction-option-image" src="/img/reaction/sad.png" alt="reaction-sad" />
                   {/* /REACTION OPTION IMAGE */}
-                <div className="xm-tooltip" style={{'white-space': 'nowrap', 'position': 'absolute', 'z-index': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
+                <div className="xm-tooltip" style={{'whiteSpace': 'nowrap', 'position': 'absolute', 'zIndex': '99999', 'top': '-28px', 'left': '50%', 'marginLeft': '-21.5px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, 10px); transition: 0.3s ease-in-out'}}><p className="xm-tooltip-text">Sad</p></div></div>
                 {/* /REACTION OPTION */}
               </div>
               {/* /REACTION OPTIONS */}
@@ -3326,7 +3326,7 @@ function Newsfeed() {
               {/* /POST SETTINGS */}
       
               {/* SIMPLE DROPDOWN */}
-              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'z-index': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'zIndex': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* SIMPLE DROPDOWN LINK */}
                 <p className="simple-dropdown-link">Widget Settings</p>
                 {/* /SIMPLE DROPDOWN LINK */}
@@ -3708,7 +3708,7 @@ function Newsfeed() {
               {/* /POST SETTINGS */}
       
               {/* SIMPLE DROPDOWN */}
-              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'z-index': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'zIndex': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* SIMPLE DROPDOWN LINK */}
                 <p className="simple-dropdown-link">Widget Settings</p>
                 {/* /SIMPLE DROPDOWN LINK */}

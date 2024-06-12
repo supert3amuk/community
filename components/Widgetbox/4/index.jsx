@@ -18,7 +18,7 @@ return (
               {/* /POST SETTINGS */}
       
               {/* SIMPLE DROPDOWN */}
-              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'z-index': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
+              <div className="simple-dropdown widget-box-post-settings-dropdown" style={{position: 'absolute', 'zIndex': '9999', 'top': '30px', 'right': '9px', 'opacity': '0', 'visibility': 'hidden', 'transform': 'translate(0px, -20px)', 'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out'}}>
                 {/* SIMPLE DROPDOWN LINK */}
                 <p className="simple-dropdown-link">Widget Settings</p>
                 {/* /SIMPLE DROPDOWN LINK */}

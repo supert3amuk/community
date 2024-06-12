@@ -1,0 +1,52 @@
+[
+    {
+      "title": "Newsfeed",
+      "icon": "newsfeed",
+      "link": "newsfeed.html"
+    },
+    {
+      "title": "Overview",
+      "icon": "overview",
+      "link": "overview.html"
+    },
+    {
+      "title": "Groups",
+      "icon": "group",
+      "link": "groups.html"
+    },
+    {
+      "title": "Members",
+      "icon": "members",
+      "link": "members.html"
+    },
+    {
+      "title": "Badges",
+      "icon": "badges",
+      "link": "badges.html"
+    },
+    {
+      "title": "Quests",
+      "icon": "quests",
+      "link": "quests.html"
+    },
+    {
+      "title": "Streams",
+      "icon": "streams",
+      "link": "streams.html"
+    },
+    {
+      "title": "Events",
+      "icon": "events",
+      "link": "events.html"
+    },
+    {
+      "title": "Forums",
+      "icon": "forums",
+      "link": "forums.html"
+    },
+    {
+      "title": "Marketplace",
+      "icon": "marketplace",
+      "link": "marketplace.html"
+    }
+  ]

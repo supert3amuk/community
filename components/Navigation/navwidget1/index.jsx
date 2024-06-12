@@ -2,7 +2,58 @@ import { useEffect, useState } from 'react';
 
 function navwidget() {
   const [isClient, setIsClient] = useState(false);
-
+const jsonData = [
+  {
+    "title": "Newsfeed",
+    "icon": "newsfeed",
+    "link": "/newsfeed/"
+  },
+  {
+    "title": "Overview",
+    "icon": "overview",
+    "link": "overview.html"
+  },
+  {
+    "title": "Groups",
+    "icon": "group",
+    "link": "/group"
+  },
+  {
+    "title": "Members",
+    "icon": "members",
+    "link": "members.html"
+  },
+  {
+    "title": "Badges",
+    "icon": "badges",
+    "link": "badges.html"
+  },
+  {
+    "title": "Quests",
+    "icon": "quests",
+    "link": "quests.html"
+  },
+  {
+    "title": "Streams",
+    "icon": "streams",
+    "link": "streams.html"
+  },
+  {
+    "title": "Events",
+    "icon": "events",
+    "link": "events.html"
+  },
+  {
+    "title": "Forums",
+    "icon": "forums",
+    "link": "forums.html"
+  },
+  {
+    "title": "Marketplace",
+    "icon": "marketplace",
+    "link": "marketplace.html"
+  }
+]
   useEffect(() => {
     setIsClient(true);
   }, []);
@@ -41,80 +92,26 @@ function navwidget() {
       </div>
     </a>
     <ul className="menu small">
-      <li className="menu-item">
-        <a className="menu-item-link text-tooltip-tfr" href="newsfeed.html" data-title="Newsfeed">
-          <svg className="menu-item-link-icon icon-newsfeed">
-            <use xlinkHref="#svg-newsfeed"></use>
-          </svg>
-        </a>
-      </li>
-      <li className="menu-item">
-        <a className="menu-item-link text-tooltip-tfr" href="overview.html" data-title="Overview">
-          <svg className="menu-item-link-icon icon-overview">
-            <use xlinkHref="#svg-overview"></use>
-          </svg>
-        </a>
-      </li>
-      <li className="menu-item">
-        <a className="menu-item-link text-tooltip-tfr" href="groups.html" data-title="Groups">
-          <svg className="menu-item-link-icon icon-group">
-            <use xlinkHref="#svg-group"></use>
-          </svg>
-        </a>
-      </li>
-      <li className="menu-item">
-        <a className="menu-item-link text-tooltip-tfr" href="members.html" data-title="Members">
-          <svg className="menu-item-link-icon icon-members">
-            <use xlinkHref="#svg-members"></use>
-          </svg>
-        </a>
-      </li>
-      <li className="menu-item">
-        <a className="menu-item-link text-tooltip-tfr" href="badges.html" data-title="Badges">
-          <svg className="menu-item-link-icon icon-badges">
-            <use xlinkHref="#svg-badges"></use>
-          </svg>
-        </a>
-      </li>
-      <li className="menu-item">
-        <a className="menu-item-link text-tooltip-tfr" href="quests.html" data-title="Quests">
-          <svg className="menu-item-link-icon icon-quests">
-            <use xlinkHref="#svg-quests"></use>
-          </svg>
-        </a>
-      </li>
-  
-      <li className="menu-item">
-        <a className="menu-item-link text-tooltip-tfr" href="streams.html" data-title="Streams">
-          <svg className="menu-item-link-icon icon-streams">
-            <use xlinkHref="#svg-streams"></use>
-          </svg>
-        </a>
-      </li>
-      <li className="menu-item">
-        <a className="menu-item-link text-tooltip-tfr" href="events.html" data-title="Events">
-          <svg className="menu-item-link-icon icon-events">
-            <use xlinkHref="#svg-events"></use>
-          </svg>
-        </a>
-      </li>
-      <li className="menu-item">
-        <a className="menu-item-link text-tooltip-tfr" href="forums.html" data-title="Forums">
-          <svg className="menu-item-link-icon icon-forums">
-            <use xlinkHref="#svg-forums"></use>
-          </svg>
-        </a>
-      </li>
-      <li className="menu-item">
-        <a className="menu-item-link text-tooltip-tfr" href="marketplace.html" data-title="Marketplace">
-          <svg className="menu-item-link-icon icon-marketplace">
-            <use xlinkHref="#svg-marketplace"></use>
-          </svg>
-        </a>
-      </li>
+    {jsonData && jsonData.map((item, index) => (
+        <JSONItem key={index} data={item} />
+      ))}
     </ul>
   </nav>
    );
 }
+function JSONItem({ data, currentPage }) {
+  const isActive = currentPage === data.link ? 'active' : '';
+
+  return (
+    <li className={`menu-item ${isActive}`}>
+      <a className='menu-item-link text-tooltip-tfr' href={`${data.link}`} data-title={data.title}>
+        <svg className={`menu-item-link-icon icon-${data.icon}`}>
+          <use xlinkHref={`#svg-${data.icon}`}></use>
+        </svg>
+      </a>
+    </li>
+  );
+}
+
 
 export default navwidget;

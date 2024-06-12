@@ -12,7 +12,8 @@ import BannerImageLink from '../../components/Banner/ImageLink';
 import Head from 'next/head';
 import Groupmenu from '../../components/Group/menu';
 import Groupitem from '../../components/Group/groupitem';
-import jsonData from '../../groupstest.json'
+import jsonData from '../../groupstest.json';
+import jsonData2 from '../../menuitems.json';
 
 function Groups() {
     const bannerImageUrl = '/img/banner/groups-icon.png';
