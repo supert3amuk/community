@@ -19,7 +19,7 @@ function JSONComponent({ jsonData }) {
         {/* /USER PREVIEW COVER */}
     
         {/* USER PREVIEW INFO */}
-        <div class="user-preview-info">{data.title}
+        <div class="user-preview-info">
           {/* USER SHORT DESCRIPTION */}
           <div class="user-short-description">
             {/* USER SHORT DESCRIPTION AVATAR */}
