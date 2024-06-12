@@ -21,7 +21,7 @@ const jsonData = [
   {
     "title": "Members",
     "icon": "members",
-    "link": "members.html"
+    "link": "/member"
   },
   {
     "title": "Badges",
