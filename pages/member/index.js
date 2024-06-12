@@ -44,7 +44,7 @@ function Groups() {
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-    <Navcomponent />
+    <Navcomponent  jsonData={jsonData2}  />
     <Navcomponent1 />
     <Navcomponent2 />
     <Chatwidget />

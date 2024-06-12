@@ -1,59 +1,10 @@
 import { useEffect, useState } from 'react';
 
+import jsonData from '../../../menuitems.json'
+
 function navwidget() {
   const [isClient, setIsClient] = useState(false);
-const jsonData = [
-  {
-    "title": "Newsfeed",
-    "icon": "newsfeed",
-    "link": "/newsfeed/"
-  },
-  {
-    "title": "Overview",
-    "icon": "overview",
-    "link": "overview.html"
-  },
-  {
-    "title": "Groups",
-    "icon": "group",
-    "link": "/group"
-  },
-  {
-    "title": "Members",
-    "icon": "members",
-    "link": "/member"
-  },
-  {
-    "title": "Badges",
-    "icon": "badges",
-    "link": "badges.html"
-  },
-  {
-    "title": "Quests",
-    "icon": "quests",
-    "link": "quests.html"
-  },
-  {
-    "title": "Streams",
-    "icon": "streams",
-    "link": "streams.html"
-  },
-  {
-    "title": "Events",
-    "icon": "events",
-    "link": "events.html"
-  },
-  {
-    "title": "Forums",
-    "icon": "forums",
-    "link": "forums.html"
-  },
-  {
-    "title": "Marketplace",
-    "icon": "marketplace",
-    "link": "marketplace.html"
-  }
-]
+
   useEffect(() => {
     setIsClient(true);
   }, []);
