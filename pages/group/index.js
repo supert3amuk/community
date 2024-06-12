@@ -22,11 +22,12 @@ import Widgetbox9 from '../../components/Widgetbox/9';
 import QuickPost from '../../components/Quickpost';
 import Simpletabs from '../../components/Simpletabs';
 import Loadingbars from '../../components/Loadingbars';
+import Groupmenu from '../../components/Group/menu';
 
 function Groups() {
     const bannerImageUrl = '/img/banner/groups-icon.png';
     const title1 = 'Groups';
-    const description = 'Check what your friends have been up to!';
+    const description = 'Browse all the groups of the community!';
 
  useEffect(() => {
     const script = document.createElement("script");
@@ -60,7 +61,8 @@ function Groups() {
     <Bar1 />
     <div className="content-grid">
    <Banner bannerdescription={description} bannertitle={title1} bannerimage={bannerImageUrl}/>
-   <div className="grid grid-3-6-3 mobile-prefer-content">
+   <Groupmenu />
+   <div className="grid grid-4-4-4 centered">
       <div className="grid-column">
        <Widgetbox1 />
        <Widgetbox2 />
