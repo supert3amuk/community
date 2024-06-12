@@ -16,7 +16,7 @@ import jsonData from '../../groupstest.json';
 import jsonData2 from '../../menuitems.json';
 import Memberitem from '../../components/Member/item';
 
-function Groups() {
+function Member() {
     const bannerImageUrl = '/img/banner/members-icon.png';
     const title1 = 'Members';
     const description = 'Browse all the groups of the community!';
@@ -66,4 +66,4 @@ function Groups() {
   );
 }
 
-export default Groups;
+export default Member;
