@@ -30,7 +30,8 @@ export default function Custom404() {
      
         <a className="button medium primary" href="profile-timeline.html">Go Back</a>
      
-      </div></div>
+      </div>
+      </div>
      
      </div>)
     

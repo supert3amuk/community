@@ -23,9 +23,9 @@ import QuickPost from '../../components/Quickpost';
 import Simpletabs from '../../components/Simpletabs';
 import Loadingbars from '../../components/Loadingbars';
 
-function Newsfeed() {
-    const bannerImageUrl = '/img/banner/newsfeed-icon.png';
-    const title1 = 'Newsfeed';
+function Groups() {
+    const bannerImageUrl = '/img/banner/groups-icon.png';
+    const title1 = 'Groups';
     const description = 'Check what your friends have been up to!';
 
  useEffect(() => {
@@ -3969,4 +3969,4 @@ function Newsfeed() {
   );
 }
 
-export default Newsfeed;
+export default Groups;
