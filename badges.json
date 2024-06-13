@@ -1,29 +1,50 @@
 [
     {
       "name": "Gold Badge",
+      "title": "Gold",
+      "des":"Has posted more than 1 post on their profile",
       "image": "/img/badge/gold-s.png",
       "lilname": "gold",
       "number": "20"
     },
     {
       "name": "Age Badge",
+      "title": "Gold",
       "lilname": "age",
-      "image": "/img/badge/age-s.png"
-    },
+      "des":"Has posted more than 1 post on their profile",
+      "image": "/img/badge/age-s.png",
+      "number": "220"
+    }, {
+        "name": "Age Badge",
+        "title": "Gold",
+        "lilname": "silver",
+        "des":"Has posted more than 1 post on their profile",
+        "image": "/img/badge/silver-s.png",
+        "number": "220"
+      },
     {
       "name": "Caffeinated Badge",
+      "title": "Gold",
       "lilname": "caffeinated",
-      "image": "/img/badge/caffeinated-s.png"
+      "des":"Has posted more than 1 post on their profile",
+      "image": "/img/badge/caffeinated-s.png",
+      "number": "320"
     },
     {
       "name": "Warrior Badge",
+      "title": "Gold",
       "lilname": "warrior",
-      "image": "/img/badge/warrior-s.png"
+      "des":"Has posted more than 1 post on their profile",
+      "image": "/img/badge/warrior-s.png",
+      "number": "220"
     },
     {
       "name": "Blank Badge",
+      "title": "Gold",
       "lilname": "blank",
+      "des":"Has posted more than 1 post on their profile",
       "image": "/img/badge/blank-s.png",
+      "number": "220",
       "additionalInfo": "+9"
     }
   ]

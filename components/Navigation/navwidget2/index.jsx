@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 
+
+import jsonData from '../../../menuitems.json'
 function navwidget1() {
   const [isClient, setIsClient] = useState(false);
 
@@ -96,159 +98,39 @@ function navwidget1() {
 
     
     <ul className="menu">
+    {jsonData && jsonData.map((item, index) => (
+        <JSONItem key={index} data={item} />
+      ))}
       
-      <li className="menu-item">
-        
-        <a className="menu-item-link" href="newsfeed.html">
-          
-          <svg className="menu-item-link-icon icon-newsfeed">
-            <use xlinkHref="#svg-newsfeed"></use>
-          </svg>
-          
-          Newsfeed
-        </a>
-        
-      </li>
-      
-
-      
-      <li className="menu-item">
-        
-        <a className="menu-item-link" href="overview.html">
-          
-          <svg className="menu-item-link-icon icon-overview">
-            <use xlinkHref="#svg-overview"></use>
-          </svg>
-          
-          Overview
-        </a>
-        
-      </li>
-      
-
-      
-      <li className="menu-item">
-        
-        <a className="menu-item-link" href="groups.html">
-          
-          <svg className="menu-item-link-icon icon-group">
-            <use xlinkHref="#svg-group"></use>
-          </svg>
-          
-          Groups
-        </a>
-        
-      </li>
-      
-
-      
-      <li className="menu-item">
-        
-        <a className="menu-item-link" href="members.html">
-          
-          <svg className="menu-item-link-icon icon-members">
-            <use xlinkHref="#svg-members"></use>
-          </svg>
-          
-          Members
-        </a>
-        
-      </li>
-      
-
-      
-      <li className="menu-item">
-        
-        <a className="menu-item-link" href="badges.html">
-          
-          <svg className="menu-item-link-icon icon-badges">
-            <use xlinkHref="#svg-badges"></use>
-          </svg>
-          
-          Badges
-        </a>
-        
-      </li>
-      
-
-      
-      <li className="menu-item">
-        
-        <a className="menu-item-link" href="quests.html">
-          
-          <svg className="menu-item-link-icon icon-quests">
-            <use xlinkHref="#svg-quests"></use>
-          </svg>
-          
-          Quests
-        </a>
-        
-      </li>
-      
-
-      
-      <li className="menu-item">
-        
-        <a className="menu-item-link" href="streams.html">
-          
-          <svg className="menu-item-link-icon icon-streams">
-            <use xlinkHref="#svg-streams"></use>
-          </svg>
-          
-          Streams
-        </a>
-        
-      </li>
-      
-
-      
-      <li className="menu-item">
-        
-        <a className="menu-item-link" href="events.html">
-          
-          <svg className="menu-item-link-icon icon-events">
-            <use xlinkHref="#svg-events"></use>
-          </svg>
-          
-          Events
-        </a>
-        
-      </li>
-      
-
-      
-      <li className="menu-item">
-        
-        <a className="menu-item-link" href="forums.html">
-          
-          <svg className="menu-item-link-icon icon-forums">
-            <use xlinkHref="#svg-forums"></use>
-          </svg>
-          
-          Forums
-        </a>
-        
-      </li>
-      
-
-      
-      <li className="menu-item">
-        
-        <a className="menu-item-link" href="marketplace.html">
-          
-          <svg className="menu-item-link-icon icon-marketplace">
-            <use xlinkHref="#svg-marketplace"></use>
-          </svg>
-          
-          Marketplace
-        </a>
-        
-      </li>
-      
+     
     </ul>
     
   </nav>
    );
 }
+
+
+function JSONItem({ data, currentPage }) {
+  const isActive = currentPage === data.link ? 'active' : '';
+
+  return (
+
+      
+    <li className="menu-item">
+        
+    <a className="menu-item-link" href={`${data.link}`} >
+      
+      <svg className="menu-item-link-icon icon-newsfeed">
+        <use xlinkHref={`#svg-${data.icon}`}></use>
+      </svg>
+      
+     {data.title}
+    </a>
+    
+  </li>
+  
+  );
+}
+
 
 export default navwidget1;

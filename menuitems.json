@@ -5,11 +5,6 @@
       "link": "/newsfeed"
     },
     {
-      "title": "Overview",
-      "icon": "overview",
-      "link": "overview.html"
-    },
-    {
       "title": "Groups",
       "icon": "group",
       "link": "/group"
@@ -22,7 +17,7 @@
     {
       "title": "Badges",
       "icon": "badges",
-      "link": "badges.html"
+      "link": "/badge"
     },
     {
       "title": "Quests",
@@ -30,23 +25,8 @@
       "link": "quests.html"
     },
     {
-      "title": "Streams",
-      "icon": "streams",
-      "link": "streams.html"
-    },
-    {
       "title": "Events",
       "icon": "events",
       "link": "events.html"
-    },
-    {
-      "title": "Forums",
-      "icon": "forums",
-      "link": "forums.html"
-    },
-    {
-      "title": "Marketplace",
-      "icon": "marketplace",
-      "link": "marketplace.html"
     }
   ]

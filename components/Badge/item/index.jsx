@@ -2,7 +2,7 @@ import React from 'react';
 
 function JSONComponent({ jsonData }) {
   return (
-    <div className='grid grid-4-4-4 centered'>
+    <div className='grid grid-3-3-3-3 top-space centered'>
       {jsonData && jsonData.map((item, index) => (
         <JSONItem key={index} data={item} />
       ))}
@@ -33,7 +33,7 @@ function JSONItem({ data }) {
         {/* /BADGE ITEM STAT IMAGE */}
     
         {/* BADGE ITEM STAT TITLE */}
-        <p className="badge-item-stat-title">Bronze User</p>
+        <p className="badge-item-stat-title">{data.title}</p>
         {/* /BADGE ITEM STAT TITLE */}
     
         {/* BADGE ITEM STAT TEXT */}
