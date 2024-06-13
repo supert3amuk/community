@@ -8,13 +8,16 @@ import Chatwidget1 from '../../components/Chat/chatwidget1';
 import Header1 from '../../components/Header';
 import Bar1 from '../../components/Bar';
 import Banner from '../../components/Banner';
+import Eventitems from '../../components/Event/item';
 import Head from 'next/head';
 import Groupmenu from '../../components/Group/menu';
 import jsonData from '../../groupstest.json';
 import jsonData2 from '../../menuitems.json';
+import jsonData3 from '../../evnttop4.json';
 import Memberitem from '../../components/Member/item';
 import EventsFilter from '../../components/Events/filter';
-import Calendar from 'react-calendar'; 
+import Calendar from 'react-calendar';
+import SectionHeader from '../../components/Section/Header';
 //import '../../public/css/Calendar.module.css';
  
 //import 'react-calendar/dist/Calendar.css'; 
@@ -23,6 +26,8 @@ import Calendar from 'react-calendar';
 function Member() {
     const [value, onChange] = useState(new Date()); 
     const bannerImageUrl = '/img/banner/events-icon.png';
+    const pretitle = `See what's next!`;
+    const title34 = 'Upcoming Events';
     const title1 = 'Events';
     const description = 'Easily manage and create events or reminders!';
 
@@ -57,10 +62,11 @@ function Member() {
     <div className="content-grid" style={{'transform': 'translate(368px)', 'transition': 'transform 0.4s ease-in-out'}}>
     <Banner bannerdescription={description} bannertitle={title1} bannerimage={bannerImageUrl}/>
     <EventsFilter />
-    <div> 
-    <h1>NextJs Calendar - GeeksforGeeks</h1> 
+  
     <Calendar onChange={onChange} value={value} /> 
-    </div>
+    <SectionHeader sectiontitle={title34} sectionpretitle={pretitle} />
+    <Eventitems jsonData={jsonData3} />
+    
     </div>
     </div>
    

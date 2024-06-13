@@ -1,6 +1,21 @@
+
+function JSONComponent({ jsonData }) {
+    return (
+      <div className='grid grid-3-3-3-3 centered'>
+        {jsonData && jsonData.map((item, index) => (
+          <JSONItem key={index} data={item} />
+        ))}
+      </div>
+    );
+  }
+  
+  function JSONItem({ data }) {
+    return (
+  
+
 <div className="event-preview">
-    <figure className="event-preview-cover liquid" style={{'background': 'url(&quot;/img/cover/47.jpg&quot;) center center / cover no-repeat'}}>
-          <img src="/img/cover/47.jpg" alt="cover-47" style={{'display': 'none'}} />
+    <figure className="event-preview-cover liquid" style={{'background': `url(${data.image}) center center / cover no-repeat`}}>
+          <img src={data.image} alt="cover-47" style={{'display': 'none'}} />
         </figure>
         <div className="event-preview-info">
           <div className="event-preview-info-top">
@@ -8,16 +23,16 @@
               <p className="date-sticker-day">13</p>
               <p className="date-sticker-month">Aug</p>
             </div>
-            <p className="event-preview-title popup-event-information-trigger">Breakfast with Neko</p>
+            <p className="event-preview-title popup-event-information-trigger">{data.title}</p>
             <p className="event-preview-timestamp"><span className="bold">8:30</span> AM</p>
-            <p className="event-preview-text">Hi Neko! I'm creating this event to invite you to have breakfast before work. Meet me at Coffebucks.</p>
+            <p className="event-preview-text">{data.description}</p>
           </div>
           <div className="event-preview-info-bottom">
             <div className="decorated-text">
               <svg className="decorated-text-icon icon-pin">
                 <use xlinkHref="#svg-pin"></use>
               </svg>
-              <p className="decorated-text-content">Downtown Coffeebucks</p>
+              <p className="decorated-text-content">{data.location}</p>
             </div>
             <div className="meta-line">
               <div className="meta-line-list user-avatar-list">
@@ -43,4 +58,5 @@
             <p className="button white white-tertiary">Remove from Calendar</p>
           </div>
         </div>
-      </div>
+      </div>);}
+      export default JSONComponent;
