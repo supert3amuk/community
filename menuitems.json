@@ -2,7 +2,7 @@
     {
       "title": "Newsfeed",
       "icon": "newsfeed",
-      "link": "newsfeed.html"
+      "link": "/newsfeed"
     },
     {
       "title": "Overview",
@@ -12,12 +12,12 @@
     {
       "title": "Groups",
       "icon": "group",
-      "link": "groups.html"
+      "link": "/group"
     },
     {
       "title": "Members",
       "icon": "members",
-      "link": "members.html"
+      "link": "/member"
     },
     {
       "title": "Badges",

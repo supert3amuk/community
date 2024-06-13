@@ -1,0 +1,29 @@
+[
+    {
+      "name": "Gold Badge",
+      "image": "/img/badge/gold-s.png",
+      "lilname": "gold",
+      "number": "20"
+    },
+    {
+      "name": "Age Badge",
+      "lilname": "age",
+      "image": "/img/badge/age-s.png"
+    },
+    {
+      "name": "Caffeinated Badge",
+      "lilname": "caffeinated",
+      "image": "/img/badge/caffeinated-s.png"
+    },
+    {
+      "name": "Warrior Badge",
+      "lilname": "warrior",
+      "image": "/img/badge/warrior-s.png"
+    },
+    {
+      "name": "Blank Badge",
+      "lilname": "blank",
+      "image": "/img/badge/blank-s.png",
+      "additionalInfo": "+9"
+    }
+  ]
