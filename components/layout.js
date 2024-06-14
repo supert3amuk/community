@@ -8,6 +8,8 @@ export default function Layout({ children }) {
         <title>FullCalendar Next.js 13 Example</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="favicon" href="/favicon.ico" />
+
+  <link rel="stylesheet" href="/css/style1.css" />
       </Head>
       <div className='navbar'>
         <Link prefetch={false} href='/'>Home</Link>
