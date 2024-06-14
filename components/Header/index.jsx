@@ -76,7 +76,7 @@ function header1() {
           {/* MENU MAIN ITEM */}
           <li className="menu-main-item">
             {/* MENU MAIN ITEM LINK */}
-            <a className="menu-main-item-link" href="#">Home</a>
+            <a className="menu-main-item-link" href="/">Home</a>
             {/* /MENU MAIN ITEM LINK */}
           </li>
           {/* /MENU MAIN ITEM */}
