@@ -5,11 +5,11 @@ export default function Custom404() {
     <Head>
     <title>My page title</title>
 
-    <link rel="stylesheet" href="/css/vendor/bootstrap.min.css" />
-<link rel="stylesheet" href="/css/styles.min.css" />
-<link rel="stylesheet" href="/css/vendor/simplebar.css" />
+    <link rel="stylesheet" href="./css/vendor/bootstrap.min.css" />
+<link rel="stylesheet" href="./css/styles.min.css" />
+<link rel="stylesheet" href="./css/vendor/simplebar.css" />
 
-<link rel="stylesheet" href="/css/vendor/tiny-slider.css" />
+<link rel="stylesheet" href="./css/vendor/tiny-slider.css" />
 
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
   </Head>
