@@ -12,7 +12,7 @@ export default function Custom404() {
   <link rel="stylesheet" href="/css/vendor/tiny-slider.css" />
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
+  </Head>
     <div className="error-section">
      
       <p className="error-section-title">404</p>
