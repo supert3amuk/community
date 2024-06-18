@@ -47,8 +47,6 @@ function Badges() {
     <Navcomponent  jsonData={jsonData2}  />
     <Navcomponent1 />
     <Navcomponent2 />
-    <Chatwidget />
-    <Chatwidget1 />
     <Header1 />
     <Bar1 />
     <div className="content-grid" style={{'transform': 'translate(368px)', 'transition': 'transform 0.4s ease-in-out'}}>
