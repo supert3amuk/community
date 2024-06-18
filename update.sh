@@ -28,3 +28,10 @@ echo "Pushing changes to the remote repository..."
 git push all main
 
 echo "Update complete!"
+
+#  chmod +x update_github.sh
+
+
+#  ./update.sh
+
+
